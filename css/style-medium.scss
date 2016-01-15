@@ -1,3 +1,7 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
 @import 'vars';
 @import 'mixins';
 
@@ -41,10 +45,10 @@ $size-header-pad:		4em;
 		text-align: center;
 		top: auto;
 		width: 100%;
-		
+
 		h1 {
 			font-size: 1.75em;
-			
+
 			br {
 				display: inline;
 			}
@@ -83,7 +87,7 @@ $size-header-pad:		4em;
 			}
 		}
 	}
-	
+
 /* Main */
 
 	#main {

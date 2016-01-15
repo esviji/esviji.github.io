@@ -20,3 +20,6 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+
+sass:
+  style: compressed
