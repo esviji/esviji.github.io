@@ -7,6 +7,8 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "http://esviji.com"
 
+permalink:           :year/:month/:title.html
+relative_permalinks: true
 # Social links.
 twitter_username:     esviji
 github_username:      esviji
