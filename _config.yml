@@ -9,13 +9,12 @@ url: "http://esviji.com"
 
 permalink:           :year/:month/:title.html
 relative_permalinks: true
+
+
 # Social links.
 twitter_username:     esviji
 github_username:      esviji
-linkedin_username:
-google_plus_username:
 facebook_username:    esviji
-dribbble_username:
 
 exclude:
   - Gemfile
