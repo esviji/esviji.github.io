@@ -1,5 +1,4 @@
 ---
-layout: post
 title: esviji review in spanish
 ---
 
