@@ -18,9 +18,9 @@ body {
 body, input, select, textarea {
 	color: $color-fg;
 	font-family: $font-family;
-	font-size: 16pt;
+	font-size: 1em;
 	font-weight: $font-weight;
-	line-height: 1.75em;
+	line-height: 1.75;
 }
 
 a {
