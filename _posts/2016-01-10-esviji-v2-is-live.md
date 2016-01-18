@@ -1,6 +1,9 @@
 ---
 title: esviji v2 is live!
-categories: release, Web, Firefox OS
+tags:
+  - release
+  - Web
+  - Firefox OS
 ---
 
 After waaaay to many month of hard work on the code, almost 3 years after the first release ever, **esviji v2 is [finaly stable](https://twitter.com/esviji/status/686187986371899392)** and released live on [play.esviji.com](http://play.esviji.com/)!
