@@ -10,12 +10,28 @@ layout: default
 
         <section>
             {{ content }}
+
+            <div id="disqus_thread"></div>
+            <script>
+            var disqus_config = function () {
+              this.page.url = '{{ site.url }}{{ page.url }}';
+              this.page.identifier = '{{ site.url }}{{ page.url }}';
+            };
+            (function() {
+              var d = document, s = d.createElement('script');
+              s.src = '//esviji.disqus.com/embed.js';
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+            })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
         </section>
-        
+
         <footer>
             <div class="row">
             {% if page.previous %}
-            
+
                 <article class="{% cycle '6u', '6u$' %} 12u(small) excerpt">
                     <header>
                         <h2><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></h2>
@@ -30,9 +46,9 @@ layout: default
                     </footer>
                 </article>
             {% endif %}
-            
+
             {% if page.next %}
-            
+
                 <article class="{% cycle '6u', '6u$' %} 12u(small) excerpt f-right">
                     <header>
                         <h2><a href="{{ page.next.url }}">{{ page.next.title }}</a></h2>
