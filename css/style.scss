@@ -351,6 +351,24 @@ header {
 	}
 }
 
+img[src *= '#right'] {
+	float: right;
+	margin: 0 0 1em 1em;
+	max-width: 50%;
+}
+
+img[src *= '#left'] {
+	float: left;
+	margin: 0 1em 1em 0;
+	max-width: 50%;
+}
+
+.posticon {
+	float: right;
+	margin: 0 0 1em 1em;
+	max-width: 25%;
+}
+
 /* List */
 
 ol {
