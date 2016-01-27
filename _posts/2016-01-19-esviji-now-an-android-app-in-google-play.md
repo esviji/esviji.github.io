@@ -3,7 +3,6 @@ title: esviji now available as an Android app in the Google Play store
 tags:
   - release
   - Android
-icon: /assets/img/android-logo.png
 ---
 
 For those of you with Android devices, there is a new way to play esviji, with the publication of the game [in the Google Play store](https://play.google.com/store/apps/details?id=com.esviji.app). Go install it and play!
