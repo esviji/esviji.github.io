@@ -7,7 +7,6 @@ baseurl: ""
 url: "http://esviji.com"
 
 permalink:           :year/:month/:title.html
-relative_permalinks: true
 
 defaults:
   -
