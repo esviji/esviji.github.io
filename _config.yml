@@ -1,8 +1,7 @@
 title: esviji, a free puzzle game on the Web and mobile devices
 email: contact@esviji.com
 description: > # this means to ignore newlines until "baseurl:"
-  esviji is a free puzzle game that can be played in any browser (but IE/Edge)
-  and on Android and iOS.
+  esviji is a free puzzle game that can be played in any browser (but not IE/Edge) on mobile and desktop.
 baseurl: ""
 url: "http://esviji.com"
 
