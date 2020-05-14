@@ -1,5 +1,3 @@
-# esviji.github.io
+# esviji.com
 
-Future esviji.com powered by Github Pages
-
-Using Jekyll version of Strata theme: http://jekyllthemes.org/themes/strata/
+Powered by Github Pages, using Jekyll version of Strata theme: http://jekyllthemes.org/themes/strata/
